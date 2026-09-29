@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data and outputs
+data/*
+!data/.gitkeep
+*.mp4
+*.zip
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+
+# Misc
+.env
+.DS_Store
+.vscode/
+.idea/
